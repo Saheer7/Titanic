@@ -164,6 +164,7 @@ For each model, we set the model, fit it with 80% of our training data, predict 
  Model evaluation_______________
  
                   Model  Score
+                  
 2        Random Forest  85.79
 4        Decision Tree  80.71
 1  Logistic Regression  79.19
