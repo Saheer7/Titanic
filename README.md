@@ -166,9 +166,13 @@ For each model, we set the model, fit it with 80% of our training data, predict 
                   Model  Score
                   
 2        Random Forest  85.79
+
 4        Decision Tree  80.71
+
 1  Logistic Regression  79.19
+
 3          Naive Bayes  78.68
+
 0                  KNN  77.66
 
 
