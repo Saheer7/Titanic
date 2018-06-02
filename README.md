@@ -63,3 +63,8 @@ Parent = mother, father
 Child = daughter, son, stepdaughter, stepson
 Some children travelled only with a nanny, therefore parch=0 for them.
 
+
+
+Exploratory Data analysis -------------
+ Data modelling----------------------
+ Model evaluation--------------------         {THESE 3 ARE DONE IN SOURCE CODE *MENTIONED IN COMMeNTS}
