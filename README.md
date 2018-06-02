@@ -65,7 +65,7 @@ Some children travelled only with a nanny, therefore parch=0 for them.
 
 
 
-Exploratory Data analysis -------------
+Exploratory Data analysis_____________
 
 We're going to consider the features in the dataset and how complete they are.
 
@@ -143,5 +143,29 @@ Pclass: People of higher socioeconomic class are more likely to survive.
 
 
 
-Data modelling----------------------
- Model evaluation--------------------         {THESE 2 ARE DONE IN SOURCE CODE *MENTIONED IN COMMeNTS}
+Data modelling________________
+Choosing the Best Model
+Splitting the Training Data
+We will use part of our training data (22% in this case) to test the accuracy of our different models.
+
+
+Testing Different Models
+I will be testing the following models with my training data (got the list from here):
+
+Gaussian Naive Bayes
+Logistic Regression
+Decision Tree Classifier
+Random Forest Classifier
+KNN or k-Nearest Neighbors
+For each model, we set the model, fit it with 80% of our training data, predict for 20% of the training data and check the accuracy.
+ Model evaluation_______________
+                  Model  Score
+2        Random Forest  85.79
+4        Decision Tree  80.71
+1  Logistic Regression  79.19
+3          Naive Bayes  78.68
+0                  KNN  77.66
+
+
+[EVERY THING IS EXPLAINED IN THE SOURCE CODE, BETTER READ PROBLEM & DATA UNDERSTANDING FROM THIS README FILE AND RUN THE CODE FOR KNOWING PROCESS CLEARLY WITH OUTPUT]
+ 
