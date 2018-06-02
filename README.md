@@ -11,6 +11,7 @@ Follow CRISP-DM process
 
 
 PROBLEM UNDERSTANDING____________________
+
 The sinking of the RMS Titanic is one of the most infamous shipwrecks in history.  On April 15, 1912, during her maiden voyage, the Titanic sank after colliding with an iceberg, killing 1502 out of 2224 passengers and crew. This sensational tragedy shocked the international community and led to better safety regulations for ships.
 One of the reasons that the shipwreck led to such loss of life was that there were not enough lifeboats for the passengers and crew. Although there was some element of luck involved in surviving the sinking, some groups of people were more likely to survive than others, such as women, children, and the upper-class.
 In this challenge, to complete the analysis of what sorts of people were likely to survive. In particular, applying the tools of machine learning to predict which passengers survived the tragedy.
@@ -20,6 +21,7 @@ For each PassengerId in the test set, you must predict a 0 or 1 value for the Su
 
 
 DATA UNDERSTANDING___________________
+
 The data has been split into two groups:
 •	training set (train.csv)
 •	test set (test.csv)
@@ -144,6 +146,7 @@ Pclass: People of higher socioeconomic class are more likely to survive.
 
 
 Data modelling________________
+
 Choosing the Best Model
 Splitting the Training Data
 We will use part of our training data (22% in this case) to test the accuracy of our different models.
@@ -159,6 +162,7 @@ Random Forest Classifier
 KNN or k-Nearest Neighbors
 For each model, we set the model, fit it with 80% of our training data, predict for 20% of the training data and check the accuracy.
  Model evaluation_______________
+ 
                   Model  Score
 2        Random Forest  85.79
 4        Decision Tree  80.71
