@@ -72,18 +72,22 @@ Exploratory Data analysis_____________
 We're going to consider the features in the dataset and how complete they are.
 
 #get a list of the features within the dataset
+
 print(train.columns)
 Index(['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp',
        'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked'],
       dtype='object')
+
 #see a sample of the dataset to get an idea of the variables
 train.sample(5)
+
 PassengerId	Survived	Pclass	Name	Sex	Age	SibSp	Parch	Ticket	Fare	Cabin	Embarked
 397	398	0	2	McKane, Mr. Peter David	male	46.0	0	0	28403	26.0000	NaN	S
 76	77	0	3	Staneff, Mr. Ivan	male	NaN	0	0	349208	7.8958	NaN	S
 864	865	0	2	Gill, Mr. John William	male	24.0	0	0	233866	13.0000	NaN	S
 610	611	0	3	Andersson, Mrs. Anders Johan (Alfrida Konstant...	female	39.0	1	5	347082	31.2750	NaN	S
 292	293	0	2	Levy, Mr. Rene Jacques	male	36.0	0	0	SC/Paris 2163	12.8750	D	C
+
 Numerical Features: Age (Continuous), Fare (Continuous), SibSp (Discrete), Parch (Discrete)
 Categorical Features: Survived, Sex, Embarked, Pclass
 Alphanumeric Features: Ticket, Cabin
